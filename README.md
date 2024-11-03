@@ -243,6 +243,128 @@
         </form>
     </section>
 
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    padding: 15px 20px;
+}
+
+.logo {
+    color: #ecf0f1;
+    font-size: 24px;
+}
+
+.nav-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-links a:hover {
+    background-color: #34495e;
+}
+
+.inicio, .sobre, .atracciones, .galeria, .contacto {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    color: #2980b9;
+}
+
+.info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    flex: 1;
+    min-width: 250px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.atraccion-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto label {
+    margin-bottom: 5px;
+}
+
+.contacto input, .contacto textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+}
+
+.contacto button {
+    padding: 10px;
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contacto button:hover {
+    background-color: #3498db;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+
     <!-- Pie de Página -->
     <footer class="footer">
         <p>&copy; 2024 Descubre La Paz. Todos los derechos reservados.</p>
