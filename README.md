@@ -1,3 +1,4 @@
+<!-- HTML -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -242,7 +243,8 @@
             <button type="submit">Enviar Mensaje</button>
         </form>
     </section>
-
+    
+<!-- CSS -->
     body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
